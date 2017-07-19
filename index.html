@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LMU Phi Delta Theta</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans+Mono"/>
+</head>
+<body>
+
+    <!-- ***** NAVIGATION BAR ***** -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><img id="mainLogo" src="images/logo-5.png"/></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myNavbar">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#aboutUs">ABOUT</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ***** END NAVIGATION BAR ***** -->
+   
+
+
+    <!-- ***** HOME PAGE ***** -->
+    
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div id="home" class="carousel-inner home">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="overlay"></div>
+                <div class="fill" style="background-image:url('images/phifestgroup.jpeg');"></div>
+                
+                <div class="carousel-caption">
+                    <div class="intro-body full-width text-center">
+                        <p class="welcome">Become the greatest version of yourself</p>
+                        <h1 class="main-heading">PHI DELTA THETA</h1>
+                        <br>
+                        <!--<p class="small-heading">CALIFORNIA PSI CHAPTER | LOYOLA MARYMOUNT UNIVERSITY</p> 
+                        <br>-->
+                        <a href="#aboutUs"><button class="btn wow fadeInUp" data-wow-delay="1.8s">LEARN MORE</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ***** END HOME PAGE ***** -->
+
+
+    
+    <!-- About Us -->
+    <section id="aboutUs" class="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>OUR CHAPTER: CALIFORNIA PSI</h1>
+                    <hr>
+                    <h3><i>Loyola Marymount University</i></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <br>
+                    <img src="images/Phi_Delta_Theta_Crest.png" class="block-image img-responsive"/>
+                </div>
+                <div class="col-md-7">
+                    <br>
+                    <h5><strong>History</strong></h6>
+                    <p>Phi Delta Theta was established on December 26, 1848 at Miami University. Since then, the Fraternity has expanded to [#] chapters and [#] colonies internationally. Many Phis have become business CEOs, professional athletes, government leaders, and scientists. Visit the Phi Delta Theta Website to learn more.</p>
+                    <h5><strong>California Psi</strong></h5>
+                    <p>On (insert date), Phi Delta Theta colonized the California Psi Chapter at Loyola Marymount University as the largest colony in the Fraternity's history. The chapter received its charter soon after on (insert date). The active members are some of LMU's brightest and most involved students.</p>
+                    <h5><strong>Brotherhood</strong></h5>
+                    <p>Add a bunch of stuff</p>
+                </div>
+            </div>
+
+            <div class="about-videos row">
+
+                <div class="col-md-6">
+                     <div class="embed-responsive embed-responsive-16by9">
+                        <div class="image" id="image">
+                            <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
+                                <img class="thumb" style="cursor: pointer;" src="images/miniflag.jpeg" alt="" />
+                                <div class="carousel-caption">
+                                    <h1 class="full-width"><i class="fa fa-play" aria-hidden="true"></i></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="thevideo" style="display: none;">
+                            <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/eOZfGZOrENA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                     <h5>Phi Delta Theta: Become the greatest version of yourself</h5>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="embed-responsive embed-responsive-16by9">
+                        <div class="image2" id="image2">
+                            <div onclick="thevid2=document.getElementById('thevideo2'); thevid2.style.display='block'; this.style.display='none'">
+                                <img class="thumb" style="cursor: pointer;" src="images/charter.jpeg" alt="" />
+                                <div class="carousel-caption">
+                                    <h1 class="full-width"><i class="fa fa-play" aria-hidden="true"></i></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="thevideo2" style="display: none;">
+                            <iframe id="video2" class="embed-responsive-item" src="https://player.vimeo.com/video/95715714" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                     <h5>California Psi: Phi Delta Theta Expansion to LMU</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    <!--
+    
+    <div id="events text-center">
+        <div class="container">
+            <div id="row">
+                <div class="col-md-12 text-center">
+                    <h1>Upcoming Events</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="event-slider" class="carousel slide" data-ride="carousel">
+                    
+                        <div class="event-carousel-inner" role="listbox">
+                            <div class="event-item active">
+                                <img src="birdsnest.jpeg"/>
+                                <div class="carousel-caption">
+                                    <h1>RUSH PHI DELT</h1>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scrolling.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#image').on('click', function(ev) {
+ 
+                $("#video")[0].src += "?autoplay=1";
+                ev.preventDefault();
+ 
+            });
+
+            $('#image2').on('click', function(ev) {
+ 
+                $("#video2")[0].src += "?autoplay=1&autopause=0";
+                ev.preventDefault();
+ 
+            });
+        });
+    </script>
+
+</body>
+</html>
