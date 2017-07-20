@@ -93,6 +93,10 @@ section p{
 
 /***** HOME PAGE *****/
 
+header {
+    background-color: black;
+}
+
 .overlay{
     display: block;
     width: 100%;
@@ -300,6 +304,21 @@ html, body{
     font-size: 70px;
 }
 
+.events {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.events img {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.events h1 {
+    font-size: 70px;
+}
 
 
 
@@ -311,9 +330,11 @@ html, body{
     height: 150px;
     opacity: 0.9;
     text-align: center;
+    margin-top: 30px;
 }
 
-.famousphis p{
+.famousphis p,
+.famousphis h1{
     margin: 0px;
     color: white;
     padding-top: 30px;
