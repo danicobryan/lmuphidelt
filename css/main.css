@@ -3,6 +3,10 @@
     margin: 0;    
 }
 
+html {
+    height: 100px;
+}
+
 @font-face{
     font-family: "Fedra Bold";
     src:url('../fonts/FeSa-Cond-Std-Bold_17446.ttf');
@@ -24,11 +28,14 @@ hr{
 
 section {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+
 }
 
 
 section h1,
+section h2,
+section h4,
 section h5{
     font-family: "Fedra Bold";
     text-transform: uppercase;
@@ -54,7 +61,7 @@ section p{
 }
 
 .btn:hover {
-    background-color: gray;
+    background-color: rgb(0, 43, 84);
     border-color: white;
     color: white;
 }
@@ -63,9 +70,10 @@ section p{
 
 /***** NAVBAR *****/
 
+/*
 .navbar{
     height: 60px;
-}
+}*/
 
 .navbar-brand {
   padding: 0px;
@@ -130,7 +138,7 @@ html, body{
 
 .welcome {
     font-family: "Ellington MT";
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
@@ -170,11 +178,21 @@ html, body{
     width: 100%;
 }
 
+
+
+
+
+
 .aboutUs {
     position: relative;
     padding: 80px 0;
     top: 0;
     left: 0;
+}
+
+.aboutUs .mission{
+    padding-top: 30px;
+
 }
 
 .about-videos {
@@ -204,9 +222,102 @@ html, body{
 }
 
 
-/*.paragraph {
-    padding: 0 50px;
-}*/
+
+
+
+
+
+.values {
+    background-color: rgb(0, 129, 198);
+    text-align: center;
+}
+
+.values h2,
+.values h4 {
+    /*color: #4c4c4c;*/
+    margin: 20px 0 20px;
+}
+
+.pillars h2{
+    padding: 25px;
+}
+
+.values p { 
+    /*color: #737373;*/
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.values i {   
+    height: 80px;
+    width: 80px;
+    /*font-size: 30px;*/
+    font-size: 60px;
+    /*padding: 25px 20px;*/
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 65%;
+    color: black;
+}
+
+
+
+
+.community{
+    background-color: rgb(123, 121, 121);
+    padding-top: 80px;
+}
+
+.community .row-1,
+.community .row-3{
+    background-color: white;
+    /*width: 100%;*/
+}
+
+.community .row-2 {
+    background-color: #F5F5F5;
+    /*width: 100%;*/
+}
+
+.community .left-side{
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.community .right-side {
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.community .image i{
+    z-index: 1;
+    color: white;
+    font-size: 70px;
+}
+
+
+
+
+.famousphis {
+    background-color: rgb(0, 43, 84);
+}
+
+.famousphis img{
+    height: 150px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.famousphis p{
+    margin: 0px;
+    color: white;
+    padding-top: 30px;
+}
 
 
 
