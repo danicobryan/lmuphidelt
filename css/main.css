@@ -7,6 +7,8 @@ html {
     height: 100px;
 }
 
+
+
 @font-face{
     font-family: "Fedra Bold";
     src:url('../fonts/FeSa-Cond-Std-Bold_17446.ttf');
@@ -66,6 +68,12 @@ section p{
     color: white;
 }
 
+@media(max-width: 768px){
+
+    section p {
+        font-size: 17px;
+    }
+}
 
 
 /***** NAVBAR *****/
@@ -82,7 +90,7 @@ section p{
 
 .navbar-brand img {
   height: 100%;
-  padding: 0px;
+  padding: 5px;
   width: auto;
   margin-left: 10px;
 }
@@ -101,7 +109,7 @@ header {
     display: block;
     width: 100%;
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.3;
     position: absolute;
     top: 0;
     left: 0;
@@ -182,9 +190,23 @@ html, body{
     width: 100%;
 }
 
+@media(max-width:768px) {    
+    .welcome {
+        font-size: 15px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+}
+
+
+/***** END HOME PAGE *****/
 
 
 
+
+/***** ABOUT US *****/
 
 
 .aboutUs {
@@ -199,10 +221,11 @@ html, body{
 
 }
 
+/*
 .about-videos {
     padding-top: 50px;
     margin-top: 20px;
-}
+}*/
 
 
 .block-image{
@@ -225,24 +248,35 @@ html, body{
     font-size: 70px;
 }
 
+@media(max-width: 768px){
+
+    .crest {
+        max-width: 200px;
+    }
+}
+
+
+/***** END ABOUT US *****/
 
 
 
 
-
+/***** OUR VALUES *****/
 
 .values {
-    background-color: rgb(0, 129, 198);
+    background-color: rgb(0, 43, 84);
     text-align: center;
 }
 
+.values h1,
 .values h2,
-.values h4 {
+.values h5 {
     /*color: #4c4c4c;*/
     margin: 20px 0 20px;
+    color: white;
 }
 
-.pillars h2{
+.values h2{
     padding: 25px;
 }
 
@@ -250,6 +284,7 @@ html, body{
     /*color: #737373;*/
     font-size: 14px;
     padding-bottom: 40px;
+    color: white;
 }
 
 .values i {   
@@ -261,8 +296,16 @@ html, body{
     padding-bottom: 40px;
     padding-top: 40px;
     border-radius: 65%;
-    color: black;
+    color: white;
 }
+
+
+/***** END OUR VALUES *****/
+
+
+
+
+
 
 
 
@@ -304,6 +347,18 @@ html, body{
     font-size: 70px;
 }
 
+
+@media(max-width: 768px){
+    .community .left-side,
+    .community .right-side {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
 .events {
     background-color: white;
     padding-top: 50px;
@@ -319,6 +374,26 @@ html, body{
 .events h1 {
     font-size: 70px;
 }
+
+
+@media(max-width: 768px){
+    
+    .events {
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .events img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .events h1 {
+        font-size: 50px;
+    }
+}
+
 
 
 
@@ -339,6 +414,103 @@ html, body{
     color: white;
     padding-top: 30px;
 }
+
+
+@media(max-width:768px) {    
+    .btn {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+.connect i {
+    
+    height: 52px;
+    width: 52px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(0, 43, 84);;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.feed {
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.instagram {
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.facebook {
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+@media(max-width:768px) {    
+    .connect .container {
+        width: 300px; 
+    }
+
+    .facebook {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 300px; 
+        margin-left: -25px;
+
+    }
+
+
+    
+}
+
+
+
+
+
+.footer {   
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+
+
+.footer .social {   
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+@media(max-width:768px) {    
+    .footer img{
+        max-width: 300px;
+    }
+}
+
+@media(max-width:350px){
+    .footer img{
+        max-width: 200px;
+    }
+}
+
 
 
 
