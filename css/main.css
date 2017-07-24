@@ -242,6 +242,10 @@ html, body{
     height:auto;
 }
 
+.about-videos {
+    padding-top: 30px;
+}
+
 .about-videos i{
     z-index: 1;
     color: white;
@@ -464,7 +468,17 @@ html, body{
 
     }
 
+    .facebook iframe {
+        height: 130px;
+    }
 
+    .connect i {
+        padding-bottom: 0px;
+    }
+
+    .feed {
+        padding-top: 0px;
+    }
     
 }
 
