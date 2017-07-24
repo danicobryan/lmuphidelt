@@ -7,7 +7,9 @@ html {
     height: 100px;
 }
 
-
+img {
+    image-rendering: auto;
+}
 
 @font-face{
     font-family: "Fedra Bold";
