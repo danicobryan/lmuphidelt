@@ -11,15 +11,6 @@ img {
     image-rendering: auto;
 }
 
-@font-face{
-    font-family: "Fedra Bold";
-    src:url('../fonts/FeSa-Cond-Std-Bold_17446.ttf');
-}
-
-@font-face{
-    font-family: "Fedra Light";
-    src:url('../fonts/FeSa-Cond-Std-Light_17452.ttf');
-}
 
 hr{
     border-color: rgb(0, 191, 255);
