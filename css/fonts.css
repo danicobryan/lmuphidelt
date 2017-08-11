@@ -1,6 +1,7 @@
 @font-face{
     font-family: "Fedra Bold";
-    src:url('../fonts/FeSa-Cond-Std-Bold_17446.ttf');
+    src: local(Fedra Sans Condensed Bold), local(FeSa-Cond-Std-Bold_17446),
+    	url('../fonts/FeSa-Cond-Std-Bold_17446.ttf');
 }
 
 @font-face{
