@@ -484,14 +484,14 @@ html, body{
 
 
 
-.footer {   
+.contact {   
     padding: 30px;
     color: #cccccc;
     background-color: #222222;
 }
 
 
-.footer .social {   
+.contact .social {   
     font-size: 20px;
     height: 30px;
     width: 30px;
@@ -503,22 +503,22 @@ html, body{
 }
 
 
-.footer a {
+.contact a {
     color: white;
 }
 
-.footer a:hover{
+.contact a:hover{
     color: gray;
 }
 
 @media(max-width:768px) {    
-    .footer img{
+    .contact img{
         max-width: 300px;
     }
 }
 
 @media(max-width:350px){
-    .footer img{
+    .contact img{
         max-width: 200px;
     }
 }
