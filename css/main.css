@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;
+    box-sizing: border-box;    
 }
 
 html {
@@ -135,6 +136,8 @@ html, body{
     /*-o-background-size: cover;*/
 }
 
+
+
 .carousel,
 .carousel-inner {
 	width:100%;
@@ -152,6 +155,12 @@ html, body{
     margin-bottom: 0px;
 }
 
+.featured {
+    font-family: "Fedra Light";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 .main-heading{
     color: white;
     font-size: 70px;
@@ -165,7 +174,8 @@ html, body{
 
 .title{ 
     color:white; 
-    font-size:40px; }
+    font-size:40px; 
+}
 
 
 .carousel-caption {
@@ -187,6 +197,55 @@ html, body{
 .full-width {
     width: 100%;
 }
+
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.vid-container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  position: fixed;
+  min-height:100%;
+  min-width:100%;
+  width: auto; 
+  height: auto;
+  right: 0; 
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .vid-container {
+    display: none;
+  }
+
+  .featured {
+    display: none;
+  }
+
+}
+
+
+
 
 @media(max-width:768px) {    
     .welcome {
